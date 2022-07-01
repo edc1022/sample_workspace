@@ -17,6 +17,10 @@ public class Variable {
 
 		System.out.println((int) c1++);
 		System.out.println(c1++);
+		
+		
+	//  이력변경추가 2022.07.01.12:55
+		System.out.println("이력변경추가.");
 	//	}
 	}
 }
