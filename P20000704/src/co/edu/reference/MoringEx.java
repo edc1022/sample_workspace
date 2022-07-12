@@ -3,7 +3,6 @@ package co.edu.reference;
 import java.util.Scanner;
 
 public class MoringEx {
-	public static void main(String[] args) {
 		boolean run = true;
 		int studentNum = 0; // 학생수 입력받을때
 		int[] scores = null; // 배열은 참조변수. 참조변수에는 실제값이 아니라 주소값. 초기화!!!
@@ -45,7 +44,8 @@ public class MoringEx {
 					
 					
 				for(int j = 0; j <= studentNum; j++) {
-					int sum = 0, avg = 0;
+					int sum = 0;
+					avg = 0;
 					sum += scores[j];
 					avg = sum / studentNum ;
 					System.out.print("평균 점수: " + avg);
