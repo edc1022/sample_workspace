@@ -41,7 +41,7 @@ public void setMajor(String major) {
 // toString()
 @Override
 public String toString() {
-	return "CollegeStudent [studNo=" + getStudNo() + ", studName=\" + getStudName() + ", score=\" + getScore() + " pro=" + pro + ", major=" + major + "]";
+	return "CollegeStudent [studNo=" + getStudNo() + ", studName=" + getStudName() + ", score=" + getScore() + " pro=" + pro + ", major=" + major + "]";
 }
 	
 	
